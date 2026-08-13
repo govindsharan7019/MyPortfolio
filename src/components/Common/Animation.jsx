@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import batvideo from 'D:/Desktop/My Portfolio websiite/batman/src/Assets/video/f33633c5e942ff30e8646c8951ef5645_720w.mp4'
+import batvideo from '../../Assets/video/f33633c5e942ff30e8646c8951ef5645_720w.mp4'
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/all';

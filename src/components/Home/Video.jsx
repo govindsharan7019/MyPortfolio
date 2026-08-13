@@ -1,5 +1,5 @@
 import React from 'react';
-import mainvideo from 'D:/Desktop/My Portfolio websiite/batman/src/Assets/video/video_960bfc93ee55.mp4'
+import mainvideo from '../../Assets/video/video_960bfc93ee55.mp4'
 
 function Video() {
   return (
