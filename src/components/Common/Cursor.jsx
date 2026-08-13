@@ -2,7 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-import batpic from 'D:/Desktop/My Portfolio websiite/batman/src/Assets/pics/batman-icon.svg'
+/* ✅ The Corrected Path (Works locally AND on Vercel) */
+import batmanIcon from "../../Assets/pics/batman-icon.svg";
+
 
 function Cursor() {
     const bat = useRef(null);
