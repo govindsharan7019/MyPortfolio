@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@font-face{
+    font-family: text1;
+    src: url('../public/fonts/6P4FPMFQH7CCC7RZ4UU4NKSGJ2RLF7V5.woff2');
+}
+
+@font-face{
+    font-family: text2;
+    src: url('../public/fonts/kJEqBuEW6A0lliaV_m88ja5TwvZwLZk.woff2');
+}
