@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import hanging from '../../Assets/pics/download-removebg-preview.png'
+import hanging from '../Assets/pics/download-removebg-preview.png'
 import gotham from '../../Assets/video/6a0aae7ddc58c372acf98f47a73e4228_720w.mp4';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
