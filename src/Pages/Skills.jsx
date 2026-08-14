@@ -47,7 +47,7 @@ function Skills() {
         {/* left container */}
         <div>
              <div className= 'relative   w-1/2 h-full'>
-          <div className='absolute  leading-10 top-0 md:top-15 left-0 md:left-95 p-5 w-75 md:w-125   '>
+          <div className='absolute  leading-10 top-0 md:top-15 left-5 md:left-95 p-5 w-75 md:w-125   '>
             <h1 className='uppercase'>Primary stack</h1>
             <div className='flex justify-between'>
               <h1>React.js</h1>
@@ -82,7 +82,7 @@ function Skills() {
         </div>
         {/* right container */}
         <div className='relative  h-full w-1/2 '>
-          <div className='absolute  leading-10 top-80 md:top-15 left-0 md:left-300 p-5  w-90 w-200md: md:w-125   '>
+          <div className='absolute  leading-10 top-80 md:top-15 left-5 md:left-300 p-5  w-90 w-200md: md:w-125   '>
             <div>
            <h1 className='uppercase font-bold p-1'>Also work with</h1>
             </div>
@@ -90,8 +90,8 @@ function Skills() {
               <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110'>Node.js</button>
               <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110 ml-2'>Express</button>
               <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110 ml-2'>MongoDB</button>
-              <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110'>Java</button>
-              <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110 ml-2'>HTML&CSS</button>
+              <button className='bg-white text-black w-16 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110'>Java</button>
+              <button className='bg-white text-black w-25 md:w-28 pb-4 pr- pl-2 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110 ml-2'>HTML&CSS</button>
               <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110 ml-2'>Typescript</button>
               <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110'>SQL</button>
             </div>
@@ -102,7 +102,7 @@ function Skills() {
           <svg width="500" height="600" className=' text-white  ' >
             <path  d="M 700 -1000 L 282 600" stroke="#0b132b" fill="transparent"   />
            </svg>
-           <img className='mt-0 ml-36 md:ml-0  ' src={hanging} alt="img" />
+           <img className='mt-0 ml-[91%] md:ml-0  ' src={hanging} alt="img" />
       </div>
       </div>
       
