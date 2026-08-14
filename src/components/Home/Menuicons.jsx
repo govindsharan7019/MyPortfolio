@@ -32,8 +32,8 @@ function Menuicons() {
   const menuicons=[
     {name:'Home', path:'/'},
     {name:'About', path:'/About'},
-    {name:'Projects', path:'/Projects'},
     {name:'Skills', path:'/Skills'},
+    {name:'Projects', path:'/Projects'},
     {name:'Contact', path:'/Contact'}
 
   ]
@@ -41,7 +41,7 @@ function Menuicons() {
 
 
   return (
-    <div className='fixed top-18 p-2 left-328 h-91 rounded-2xl w-70 overflow-hidden bg-white border-black border-2  text-white'>
+    <div className='fixed top-18 p-2 left-360 h-91 rounded-2xl w-70 overflow-hidden bg-white border-black border-2  text-white'>
       <div className='m-1 bg-black flex flex-col gap-2 flex-wrap h-84 rounded-2xl'>
 
         {menuicons.map((item, index)=>{

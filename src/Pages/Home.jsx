@@ -8,6 +8,7 @@ import { useGSAP } from '@gsap/react';
 import { gsap  } from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import Animation from '../components/Common/Animation'
+import Projects from './Projects';
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -45,6 +46,7 @@ function Home() {
         <About/>
         <Animation/>
         <Skills/>
+        <Projects/>
         
     </div>
   )

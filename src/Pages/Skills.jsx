@@ -29,7 +29,7 @@ function Skills() {
 
 
   return (
-    <div ref={container} className='relative h-400 w-full  text-white font-[text1]   overflow-hidden bg-[radial-gradient(circle_at_center,_#2a2b2d_50%,_#000000_80%)]'>
+    <div ref={container} className='relative h-300 md:h-400 w-full  text-white font-[text1]   overflow-hidden bg-[radial-gradient(circle_at_center,_#2a2b2d_50%,_#000000_80%)]'>
         <div>
           <video ref={videobg} src='https://www.pexels.com/download/video/26733215/' autoPlay loop muted className=' absolute object-cover w-full h-190' ></video>
         </div>
@@ -43,66 +43,66 @@ function Skills() {
            </div>
         </div>
       {/* content divided into two container */}
-      <div className='relative h-200 md:h-300 w-1/2 md:w-full  flex flex-col gap-10  '>
+      <div className='relative h-80 md:h-300 w-full md:w-full  flex flex-col gap-10  '>
         {/* left container */}
-        <div className='flex  gap-56 justify-between'>
-             <div className= 'relative   bg-red-500 w-1/2 h-full'>
-          <div className='absolute  leading-10 top-0 md:top-15 left-0 md:left-95 p-5 w-100 md:w-125   '>
+        <div>
+             <div className= 'relative   w-1/2 h-full'>
+          <div className='absolute  leading-10 top-0 md:top-15 left-0 md:left-95 p-5 w-75 md:w-125   '>
             <h1 className='uppercase'>Primary stack</h1>
             <div className='flex justify-between'>
               <h1>React.js</h1>
               <h1>90%</h1>
             </div>
-            <div className='bg-transparent-400 border-2 h-4 w-115 rounded-2xl'>
-              <div className='h-3 rounded-2xl w-103 bg-[#7d7d7d]'></div>
+            <div className='bg-transparent-400 border-2 h-3 md:h-4 w-70 md:w-115 rounded-2xl'>
+              <div className='h-2 md:h-3 rounded-2xl w-60 md:w-103 bg-[#103991]'></div>
             </div>
             <div className='flex justify-between'>
               <h1>Javascript</h1>
               <h1>86%</h1>
             </div>
-            <div className='bg-transparent-400 border-2 h-4 w-115 rounded-2xl'>
-              <div className='h-3 rounded-2xl w-98 bg-[#7d7d7d]'></div>
+            <div className='bg-transparent-400 border-2 h-3 md:h-4 w-70 md:w-115 rounded-2xl'>
+              <div className='h-2 md:h-3 rounded-2xl w-55 md:w-98 bg-[#f7df1e]'></div>
             </div>
             <div className='flex justify-between'>
               <h1>Tailwind</h1>
               <h1>80%</h1>
             </div>
-            <div className='bg-transparent-400 border-2 h-4 w-115 rounded-2xl'>
-              <div className='h-3 rounded-2xl w-92 bg-[#7d7d7d]'></div>
+            <div className='bg-transparent-400 border-2 h-3 md:h-4 w-70 md:w-115 rounded-2xl'>
+              <div className='h-2 md:h-3 rounded-2xl w-50 md:w-92 bg-[#2c699a]'></div>
             </div>
             <div className='flex justify-between'>
               <h1>GSAP</h1>
               <h1>70%</h1>
             </div>
-            <div className='bg-transparent-400 border-2 h-4 w-115 rounded-2xl'>
-              <div className='h-3 rounded-2xl w-82 bg-[#7d7d7d]'></div>
+            <div className='bg-transparent-400 border-2 h-3 md:h-4 w-70 md:w-115 rounded-2xl'>
+              <div className='h-2 md:h-3 rounded-2xl w-45 md:w-82 bg-[#88ce02]'></div>
             </div>
           </div>
 
         </div>
         {/* right container */}
         <div className='relative  h-full w-1/2 '>
-          <div className='absolute  leading-10 top-15 left-10 p-5  w-125   '>
+          <div className='absolute  leading-10 top-80 md:top-15 left-0 md:left-300 p-5  w-90 w-200md: md:w-125   '>
             <div>
-              <h1 className='uppercase font-bold p-1'>Also work with</h1>
+           <h1 className='uppercase font-bold p-1'>Also work with</h1>
             </div>
             <div className='' >
-              <button className='bg-white text-black w-28 pb-4 rounded-full mb-2 mr-2 mt-2 h-10 cursor-pointer hover:scale-110'>Node.js</button>
-              <button className='bg-white text-black w-28 pb-4 rounded-full mb-2 mr-2 mt-2 h-10 cursor-pointer hover:scale-110 ml-2'>Express</button>
-              <button className='bg-white text-black w-28 pb-4 rounded-full mb-2 mr-2 mt-2 h-10 cursor-pointer hover:scale-110 ml-2'>MongoDB</button>
-              <button className='bg-white text-black w-28 pb-4 rounded-full mb-2 mr-2 mt-2 h-10 cursor-pointer hover:scale-110'>Java</button>
-              <button className='bg-white text-black w-28 pb-4 rounded-full mb-2 mr-2 mt-2 h-10 cursor-pointer hover:scale-110 ml-2'>HTML&CSS</button>
-              <button className='bg-white text-black w-28 pb-4 rounded-full mb-2 mr-2 mt-2 h-10 cursor-pointer hover:scale-110 ml-2'>Typescript</button>
-              <button className='bg-white text-black w-28 pb-4 rounded-full mb-2 mr-2 mt-2 h-10 cursor-pointer hover:scale-110'>SQL</button>
+              <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110'>Node.js</button>
+              <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110 ml-2'>Express</button>
+              <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110 ml-2'>MongoDB</button>
+              <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110'>Java</button>
+              <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110 ml-2'>HTML&CSS</button>
+              <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110 ml-2'>Typescript</button>
+              <button className='bg-white text-black w-20 md:w-28 pb-4 text-[14px] rounded-full mb-2 mr-2 mt-2 h-8 md:h-10 cursor-pointer hover:scale-110'>SQL</button>
             </div>
           </div>
         </div>
         </div>
-        <div className='w-100 absolute top-0 left-150  h-250  '>
-          <svg width="500" height="600" className=' text-white ' >
-            <path d="M 700 -1000 L 282 600" stroke="#0b132b" fill="transparent"   />
+        <div className='w-40 md:w-100 absolute top-20 md:top-0 left-0 md:left-150 h-50 md:h-250  '>
+          <svg width="500" height="600" className=' text-white  ' >
+            <path  d="M 700 -1000 L 282 600" stroke="#0b132b" fill="transparent"   />
            </svg>
-           <img className='mt-0 ml-0  ' src={hanging} alt="img" />
+           <img className='mt-0 ml-36 md:ml-0  ' src={hanging} alt="img" />
       </div>
       </div>
       

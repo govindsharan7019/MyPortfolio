@@ -14,6 +14,70 @@ function About() {
 
   const imageDevRef = useRef(null);
   const imageRef=useRef(null);
+  const engg=useRef(null);
+  const engineeringcontent=useRef(null);
+  const about=useRef(null);
+  const whoiam=useRef(null);
+
+  useGSAP(()=>{
+    gsap.from(engg.current,{
+      opacity:0,
+      x:200,
+      duration:2,
+      ease:'power1.out',
+      scrollTrigger:{
+        trigger:engg.current,
+        scroller:'body',
+        start:'top 85%',
+        once:true
+      }
+    })
+  })
+
+   useGSAP(()=>{
+    gsap.from(engineeringcontent.current,{
+      opacity:0,
+      y:200,
+      duration:3,
+      ease:'power1.out',
+      scrollTrigger:{
+        trigger:engineeringcontent.current,
+        scroller:'body',
+        start:'top 205%',
+        once:true
+      }
+    })
+  })
+
+   useGSAP(()=>{
+    gsap.from(about.current,{
+      opacity:0,
+      x:200,
+      duration:1,
+      ease:'power1.out',
+      scrollTrigger:{
+        trigger:about.current,
+        scroller:'body',
+        start:'top 90%',
+        once:true
+      }
+    })
+  })
+
+  useGSAP(()=>{
+    gsap.from(whoiam.current,{
+      opacity:0,
+      x:-200,
+      duration:1,
+      ease:'power1.out',
+      scrollTrigger:{
+        trigger:whoiam.current,
+        scroller:'body',
+        start:'top 90%',
+        once:true
+      }
+    })
+  })
 
   const imageArray=[
     'https://i.pinimg.com/1200x/0c/2b/d0/0c2bd040fb0721ddc78612ad21749eec.jpg',
@@ -61,9 +125,9 @@ function About() {
         <div className='bg-white h-2 w-full'></div>
 
           <div className='relative h-fit md:h-fit flex flex-col font-[text1] w-full md:w-full text-black bg-[#000000]'>
-              <div className='absolute top-0 left-0 items-center flex flex-col justify-center mt-0 md:mt-2 leading-4 md:leading-12 ml-[30%] md:ml-180 p-4 w-fit'>
-                <p className='text-[14px] md:text-[20px] text-[#7d7d7d]'>About</p>
-                <h1 className='text-xl md:text-[55px] text-white'>Who I am</h1>
+              <div className='absolute top-0 left-0 items-center flex flex-col justify-center mt-0 md:mt-2 leading-4 md:leading-12 ml-[34%] md:ml-180 p-4 w-fit'>
+                <p ref={about} className='text-[14px] md:text-[20px] text-[#7d7d7d]'>About</p>
+                <h1 ref={whoiam} className='text-xl md:text-[55px] text-white'>Who I am</h1>
               </div>
             <div className='w-full md:w-full h-200 md:h-230 flex flex-col '>
               <div className='w-70   md:w-1/3 h-130 b md:h-230 items-center '>
@@ -98,10 +162,10 @@ function About() {
             </div>
             <div className=' z-10 w-full text-white font-[text1] h-200 md:h-270'>
               <div className='text-5xl md:text-2xl md:text-[250px] mt-0 leading-10 md:leading-60'>
-                <h1>ENGINEERING 
+                <h1 ref={engg} >ENGINEERING 
                   <br /> METHODOLOGY</h1>
               </div>
-              <div className='w-70 md:w-230 ml-[20%] md:ml-190 h-50 md:h-150 p-4 text-wrap leading-6 md:leading-12 text-[16px] md:text-4xl '>
+              <div ref={engineeringcontent} className='w-70 md:w-230 ml-[20%] md:ml-190 h-50 md:h-150 p-4 text-wrap leading-6 md:leading-12 text-[16px] md:text-4xl '>
                         <p className=' text-[14px] md:text-[32px] font-bold '> &nbsp; &nbsp;&nbsp;&nbsp;A Computer Science engineering Graduate (2022-2026)</p>
                         <p >with  a passion for trasforming complex code into sleek, immersive  digital realities. </p>
                         <p >I specialize in crafting high performance user experiences using </p>
