@@ -21,7 +21,7 @@ function Skills() {
                 start: 'top top',      // Start fading when the top of the video hits the top of the screen
                 end: '+=300px',     // Finish fading completely when the video scrolls fully off-screen
                 scrub: true, 
-                markers:true          // Links the fade-out directly to the scrollbar movement
+                  
             }
         });
     }, [], { scope: container });

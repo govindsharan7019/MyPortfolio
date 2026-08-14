@@ -47,7 +47,6 @@ function Projects() {
       scrollTrigger: {
         trigger: image1.current,
         scroller: 'body',
-        markers: true,
         start: 'top 80%', // Triggers on viewport entry checkpoint metrics
         once: true        // FIXED: Removed scrub to let once lock elements cleanly
       }
@@ -64,7 +63,6 @@ function Projects() {
       scrollTrigger: {
         trigger: image2.current,
         scroller: 'body',
-        markers: true,
         start: 'top 80%',
         once: true        // FIXED: Removed scrub to let once lock elements cleanly
       }
@@ -100,18 +98,18 @@ function Projects() {
           
           {/* Left Project Grid Column Column Cell */}
           <div ref={image1} className="w-full md:w-1/2 flex flex-col gap-6">
-            <img className='h-48 sm:h-64 md:h-80 w-full object-cover rounded-2xl border border-zinc-800 shadow-lg' src={project1} alt="Project deployment slide module alpha frame" />
-            <h1 className='ml-48 text-xl cursor-pointer hover:text-[#f4f2f2]'>Sovella:The Ecommerce Webstie</h1>
-            <img className='h-48 sm:h-64 md:h-80 w-full object-cover rounded-2xl border border-zinc-800 shadow-lg' src={project3} alt="Project deployment slide module gamma frame" />
-            <h1 className='ml-48 text-xl cursor-pointer hover:text-[#f4f2f2]'>Notes Making site using React</h1>
+            <img className='h-full sm:h-64 md:h-80 w-full object-cover rounded-2xl border border-zinc-800 shadow-lg' src={project1} alt="Project deployment slide module alpha frame" />
+            <h1 className=' md:ml-48  md:text-xl cursor-pointer hover:text-black'>Sovella:The Ecommerce Webstie</h1>
+            <img className='h-full sm:h-64 md:h-80 w-full object-cover rounded-2xl border border-zinc-800 shadow-lg' src={project3} alt="Project deployment slide module gamma frame" />
+            <h1 className='md:ml-48 md:text-xl cursor-pointer hover:text-black'>Notes Making site using React</h1>
           </div>
           
           {/* Right Project Grid Column Column Cell */}
           <div ref={image2} className="w-full md:w-1/2 flex flex-col gap-6 mt-0 md:mt-0">
-            <img className='h-48 sm:h-64 md:h-80 w-full object-cover rounded-2xl border border-zinc-800 shadow-lg' src={project2} alt="Project deployment slide module beta frame" />
-            <h1 className='ml-48 text-xl cursor-pointer hover:text-[#f4f2f2]'>UI Page of Banking using React</h1>
-            <img className='h-48 sm:h-64 md:h-80 w-full object-cover rounded-2xl border border-zinc-800 shadow-lg' src={project4} alt="Project deployment slide module delta frame" />
-            <h1 className='ml-48 text-xl cursor-pointer hover:text-[#]'>K72 - website Clone</h1>
+            <img className='h-full sm:h-64  md:h-80 w-full object-cover rounded-2xl border border-zinc-800 shadow-lg' src={project2} alt="Project deployment slide module beta frame" />
+            <h1 className='md:ml-48 md:text-xl cursor-pointer hover:text-black'>UI Page of Banking using React</h1>
+            <img className=' h-full sm:h-64 md:h-80 w-full object-cover rounded-2xl border border-zinc-800 shadow-lg' src={project4} alt="Project deployment slide module delta frame" />
+            <h1 className='md:ml-48 md:text-xl cursor-pointer hover:text-black'>K72 - website Clone</h1>
           </div>
 
         </div>

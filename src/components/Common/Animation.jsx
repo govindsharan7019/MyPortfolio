@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+import batmanvideo1 from '../../Assets/video/SaveVid.Net_AQMU9807532nABzrg8Y9njt8NHf7PBHpjGhz6h-a23EAWyQQZZaGLm5BLOe4R9WQMLOgDH8y6vY-qhujULHd8s0N.mp4'
 gsap.registerPlugin(ScrollTrigger);
 
 function Animation() {
@@ -44,7 +45,7 @@ function Animation() {
         <div  className='relative h-screen w-full overflow-hidden '>
             <img ref={bgImage} className='object-cover h-full w-full ' src="https://noth-in.b-cdn.net/freepik__photography-frontal-shot-of-a-huge-large-169-white__495122.webp" alt="img" />
             <div className='absolute top-0 left-0 h-screen w-full'>
-                <video ref={batmanvideo} className='object-cover border-8 border-black  h-full w-full' autoPlay loop muted src='https://www.pexels.com/download/video/34268782/'></video>
+                <video ref={batmanvideo} className='object-cover border-8 border-black  h-full w-full' autoPlay loop muted src={batmanvideo1}></video>
             </div>
         </div>
     </div>
