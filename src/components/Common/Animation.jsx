@@ -102,7 +102,7 @@ function Animation() {
             />
             
             {/* Foreground Video Absolute Container Layer */}
-            <div className='absolute md:top-0 md:left-0 h-22 md:h-screen z-1 w-42 md:w-full flex items-center justify-center bg-black/50'>
+            <div className='absolute md:top-0 md:left-0 h-15 md:h-screen z-1 w-28 md:w-full flex items-center justify-center bg-black/50'>
                 <video 
                   ref={batmanvideo} 
                   className='object-cover h-full md:h-full w-full md:w-full border-0 md:border-8 border-black' 
