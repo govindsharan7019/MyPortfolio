@@ -102,7 +102,7 @@ function Skills() {
           <svg width="500" height="600" className=' text-white  ' >
             <path  d="M 700 -1000 L 282 600" stroke="#0b132b" fill="transparent"   />
            </svg>
-           <img className='mt-0 ml-[91%] md:ml-0  ' src={hanging} alt="img" />
+           <img className='mt-0 ml-[95%] md:ml-0  ' src={hanging} alt="img" />
       </div>
       </div>
       
