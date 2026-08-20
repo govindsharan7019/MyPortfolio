@@ -29,7 +29,7 @@ function Skills() {
 
 
   return (
-    <div ref={container} className='relative h-300 md:h-400 w-full  text-white font-[text1]   overflow-hidden bg-[radial-gradient(circle_at_center,_#2a2b2d_50%,_#000000_80%)]'>
+    <div ref={container} className='relative h-200 md:h-400 w-full  text-white font-[text1]   overflow-hidden bg-[radial-gradient(circle_at_center,_#2a2b2d_50%,_#000000_80%)]'>
         <div>
           <video ref={videobg} src='https://www.pexels.com/download/video/26733215/' autoPlay loop muted className=' absolute object-cover w-full h-190' ></video>
         </div>
@@ -98,11 +98,11 @@ function Skills() {
           </div>
         </div>
         </div>
-        <div className='w-40 md:w-100 absolute top-20 md:top-0 left-0 md:left-150 h-50 md:h-250  '>
+        <div className='w-100 absolute  top-0 left-150 h-250  '>
           <svg width="500" height="600" className=' text-white  ' >
             <path  d="M 700 -1000 L 282 600" stroke="#0b132b" fill="transparent"   />
            </svg>
-           <img className='mt-0 ml-[95%] md:ml-0  ' src={hanging} alt="img" />
+           <img className='mt-0 ml-0  ' src={hanging} alt="img" />
       </div>
       </div>
       
