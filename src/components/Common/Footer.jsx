@@ -33,7 +33,7 @@ const Footer = () => {
         {/* Right Side: Professional Vectors & Navigation */}
         <div className="flex items-center space-x-6 text-sm">
           <a 
-            href="https://github.com" 
+            href="https://github.com/govindsharan7019" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-white transition-colors duration-200 font-medium"
@@ -41,7 +41,7 @@ const Footer = () => {
             GitHub
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/govind-saharan" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-white transition-colors duration-200 font-medium"
