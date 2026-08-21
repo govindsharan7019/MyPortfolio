@@ -116,7 +116,7 @@ function About() {
   
 
   return (
-    <div className='relative z-10 h-350 md:h-600 w-full md:w-full bg-black overflow-hidden'>
+    <div className='relative z-10 h-450 md:h-600 w-full md:w-full bg-black overflow-hidden'>
         <div className='bg-[#1c1c1c] w-full h-2 '></div>
         <div className='bg-white w-full h-2 '></div>
         <div className='bg-[#1c1c1c] w-full h-2 '></div>

@@ -4,6 +4,9 @@ import Form from '../components/Contact/Form'
 import { ExternalLink } from 'lucide-react'
 
 function Contact() {
+
+
+
   return (
     <div className='bg-black relative w-full h-200 md:h-300 flex justify-center  flex-col'>
       {/* div1 */}
@@ -18,24 +21,27 @@ function Contact() {
          </div>
          
          {/* heading line div */}
-         <div className=' flex justify-center text-center  font-[text2] text-[14px] md:text-xl w-[55%] md:w-[30vw] ml-20 md:ml-[11vw] mt-[2vw] text-white'>
+         <div className=' flex justify-center text-center  font-[text2] text-[14px] md:text-xl w-[55%] md:w-[30vw] ml-[22%] md:ml-[11vw] mt-[2vw] text-white'>
           <p>Got a project, job opportunity, or just want to say hi? I reply to everything.</p>
          </div>
          {/* main container div who hold left side two buttons and right side form */}
          <div className='  text-white flex justify-between h-[70vh] w-[40vw] ml-[7vw]'>
-          <div className=' h-full w-1/2 pt-[8vw] '>
-               <div className='w-60 md:w-75  h-10 md:h-15 rounded-2xl ml-[50%] md:ml-[5%] bg-[#213c49] shadow-[0px_0px_5px_5px_rgba(91,195,247,0.35)] flex justify-between cursor-pointer'>
+          <div className=' h-full w-1/2 pt-[8vw] '> 
+               <div className='w-60 md:w-[105%]  h-10 md:h-15 rounded-2xl ml-[60%] md:ml-[-10%] bg-[#213c49] shadow-[0px_0px_5px_5px_rgba(91,195,247,0.35)] flex justify-between cursor-pointer'>
               <MailMinus className='ml-2 md:ml-4 mt-3 md:mt-4 bg-zinc-950 p-1 h-6 md:h-8 w-10 md:w-8 rounded-xl'/>
-              <div className='mt-2 mr-4 md:mr-10 leading-3 md:leading-0'>
+              <div className='mt-2 mr-4 md:mr-[33%] leading-3 md:leading-0'>
                 <button className='font-[text2] text-[14px] md:text-xl font-extralight text-zinc-950'> Email</button>
                 <p className='text-[12px] md:text-sm'>govindsharan9370@gmail.com</p>
               </div>
             </div>
-            <div className='w-60 md:w-75 mt-[30%] md:mt-[10%]  h-10 md:h-15 rounded-2xl ml-[50%] md:ml-[5%] bg-[#213c49] shadow-[0px_0px_5px_5px_rgba(91,195,247,0.35)] flex justify-between cursor-pointer'>
+            <div className='w-60 md:w-[105%] mt-[30%] md:mt-[10%]  h-10 md:h-15 rounded-2xl ml-[60%] md:ml-[-10%] bg-[#213c49] shadow-[0px_0px_5px_5px_rgba(91,195,247,0.35)] flex justify-between cursor-pointer'>
+               
               <ExternalLink className='ml-2 md:ml-4 mt-3 md:mt-4 bg-zinc-950 p-1 h-6 md:h-8 w-10 md:w-8 rounded-xl'/>
               <div  className='mt-2 mr-4 md:mr-10 leading-3 md:leading-0'>
                 <button  className='font-[text2] text-[14px] md:text-xl font-extralight text-zinc-950'> Linkdin</button>
-                 <p className='text-[12px] md:text-sm'>govindsharan9370@gmail.com</p>
+                 <a href="https://www.linkedin.com/in/govind-saharan " target='blank ' rel='noopener noreferrer' >
+                 <p className='text-[12px] md:text-sm'>https://www.linkedin.com/in/govind-saharan</p>
+                 </a>
               </div>
             </div>
           </div>
