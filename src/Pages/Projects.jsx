@@ -99,7 +99,7 @@ function Projects() {
           {/* Left Project Grid Column Column Cell */}
           <div ref={image1} className="w-full md:w-1/2 flex flex-col gap-6">
             <img className='h-full sm:h-64 md:h-80 w-full object-cover rounded-2xl border border-zinc-800 shadow-lg' src={project1} alt="Project deployment slide module alpha frame" />
-            <h1 className=' md:ml-48  md:text-xl cursor-pointer hover:text-black'>Sovella:The Ecommerce Webstie</h1>
+            <h1 className=' md:ml-48  md:text-xl cursor-pointer hover:text-black'>Sovella:The Ecommerce Website</h1>
             <img className='h-full sm:h-64 md:h-80 w-full object-cover rounded-2xl border border-zinc-800 shadow-lg' src={project3} alt="Project deployment slide module gamma frame" />
             <h1 className='md:ml-48 md:text-xl cursor-pointer hover:text-black'>Notes Making site using React</h1>
           </div>
