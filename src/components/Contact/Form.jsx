@@ -19,7 +19,7 @@ function Form() {
         const formObject = Object.fromEntries(formData);
         
         // Securely inject your real verified Web3Forms Access token payload parameters
-        formObject.access_key = "2d899f28-3858-46b3-b003-c5da5c3f3c24";
+        formObject.access_key =import.meta.env.VITE_WEB3FORMS_KEY;
 
         try {
           // Send the payload converted as a strict JSON string asset
