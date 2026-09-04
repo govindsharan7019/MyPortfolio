@@ -5,16 +5,16 @@ import Video  from './Video';
 function LeftContent() {
   return (
     <div className='w-1/2 md:w-1/2  h-screen md:h-screen relative'>
-        <div className=' absolute top-1/3 md:top-1/3  left-2 md:left-1/3  h-60 md:h-1/2   w-40  md:w-100  flex-col font-[text1] overflow-hidden '>
+        <div className=' absolute top-1/3 md:top-1/3  left-2 md:left-1/3  h-1/2  w-[45vw] md:w-[25vw] flex-col font-[text1] overflow-hidden '>
         {/* hold text + video */}
             <div className='flex flex-col '>
-                <h1 className='text-2xl md:text-[72px] leading-none  ' to='/Contact'>Welcome to
+                <h1 className='text-[7.2vw] md:text-[4.2vw] leading-none  ' to='/Contact'>Welcome to
                 <div className='flex justify-start' > 
                     <div>
                     <h1>My</h1>
                     </div>
                     {/* video in this div */}
-                    <div className='rounded-full ml-2 md:ml-2 h-8 md:h-12   w-19 md:w-40 flex justify-center '> 
+                    <div className=' ml-2 md:ml-2  w-[16vw]  md:w-[8vw] flex justify-center '> 
                       <Video />
                     </div> 
                     </div> 
