@@ -139,13 +139,13 @@ function About() {
                 <img className='object-cover  rounded-2xl h-full  w-full ' src="https://i.pinimg.com/1200x/23/57/fb/2357fba426afe7cebafc80b3eb9764e3.jpg" alt="img" />
               </div>
               {/* large text */}
-              <div className='absolute top-55 md:top-[25vw] left-16 md:left-[6vw] z-10 w-full md:w-full text-white '>
+              <div className='absolute top-55 md:top-[25vw] left-10 md:left-[6vw] z-10 w-full md:w-full text-white '>
                 <div className='text-[1.5rem] md:text-[3vw] leading-6 md:leading-[2.8vw] font[text1] w-20 md:w-80 '>
                   <h1 className='text-white'>Hi, I'm <div className='text-[#7d7d7d]'>Govind</div> </h1>
                 </div>
                 {/* paragraph */}
-                <div className='mt-2 md:mt-4'>
-                  <p className='leading-3.5  font-[text2] text-[12px] md:text-[1.2vw] w-31 bg-amber-600 md:w-[15vw] '>A Computer Science Engineer and web developer passionate about building modern and interactive digital experiences.</p>
+                <div className='mt-2 md:mt-4 '>
+                  <p className='leading-3.5  font-[text2] text-[12px] md:text-[1.2vw] w-25 bg-amber-600 md:w-[15vw] '>A Computer Science Engineer and web developer passionate about building modern and interactive digital experiences.</p>
                 </div>
                 {/* button to see my work */}
                 <div className='mt-1 md:mt-4 w-32 md:w-45 h-9 md:h-12 rounded-full flex justify-center items-center bg-white '>
