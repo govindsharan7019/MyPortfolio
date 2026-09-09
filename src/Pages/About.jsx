@@ -145,7 +145,7 @@ function About() {
                 </div>
                 {/* paragraph */}
                 <div className='mt-2 md:mt-4 '>
-                  <p className='leading-3.5  font-[text2] text-[12px] md:text-[1.2vw] w-30 md:w-[15vw] '>A Computer Science Engineer and web developer passionate about building modern and interactive digital experiences.</p>
+                  <p className='leading-3.5 md:leading-5  font-[text2] text-[12px] md:text-[1.2vw] w-30 md:w-[15vw] '>A Computer Science Engineer and web developer passionate about building modern and interactive digital experiences.</p>
                 </div>
                 {/* button to see my work */}
                 <div className='mt-1 md:mt-4 w-32 md:w-45 h-9 md:h-12 rounded-full flex justify-center items-center bg-white '>
