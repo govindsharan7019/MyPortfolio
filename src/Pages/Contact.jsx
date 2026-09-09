@@ -30,7 +30,7 @@ function Contact() {
                <div className='w-[380%] md:w-[105%]  h-10 md:h-15 rounded-2xl ml-[32%] md:ml-[-10%] bg-[#213c49] shadow-[0px_0px_5px_5px_rgba(91,195,247,0.35)] flex justify-between cursor-pointer'>
               <MailMinus className='ml-2 md:ml-4 mt-3 md:mt-4 bg-zinc-950 p-1 h-6 md:h-8 w-10 md:w-8 rounded-xl'/>
               <div className='mt-2 mr-[18%] md:mr-[33%] leading-3 md:leading-0'>
-                <button className='font-[text2] text-[14px] md:text-xl font-extralight text-zinc-950'> Email</button>
+                <button className='font-[text2] text-[14px] md:text-xl font-extralight text-black'> Email</button>
                 <p className='text-[12px] md:text-sm'>govindsharan9370@gmail.com</p>
               </div>
             </div>
@@ -38,7 +38,7 @@ function Contact() {
                
               <ExternalLink className='ml-2 md:ml-4 mt-3 md:mt-4 bg-zinc-950 p-1 h-6 md:h-8 w-10 md:w-8 rounded-xl'/>
               <div  className='mt-2 mr-4 md:mr-10 leading-3 md:leading-0'>
-                <button  className='font-[text2] text-[14px] md:text-xl font-extralight text-zinc-950'> Linkdin</button>
+                <button  className='font-[text2] text-[14px] md:text-xl font-extralight text-black'> Linkdin</button>
                  <a href="https://www.linkedin.com/in/govind-saharan " target='blank ' rel='noopener noreferrer' >
                  <p className='text-[10px] md:text-sm'>https://www.linkedin.com/in/govind-saharan</p>
                  </a>
