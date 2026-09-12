@@ -1,0 +1,1 @@
+export const URL =VITE_GEMINI_API_URL

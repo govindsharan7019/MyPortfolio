@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Menuicons from './Menuicons';
+import Bot from '../ai/Bot';
 
 function Navbar() {
   const [menubar, setmenubar] = useState(false);
@@ -45,6 +46,9 @@ function Navbar() {
           {/* RESPONSIVE FIXES: Removed broken 'mr-50', fixed heights, and fixed widths ('w-50'). Kept elements as a clean, responsive layout flex group. */}
           <div className='flex items-center gap-3'>
             <div className='flex items-center gap-2 md:gap-4'>
+              <div>
+                <Bot/>
+              </div>
               
               {/* get in touch button */}
               {/* RESPONSIVE FIXES: Sized to look premium on both mobile screens and desktops without hardcoded limits. */}
